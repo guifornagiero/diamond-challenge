@@ -1,1 +1,7 @@
-<p>countdown works!</p>
+<div ngClass="container">
+    <h1>{{countdown}}</h1>
+    <div ngClass="container-timestamps">
+        <p>End of season: {{endOfSeason | date}}</p>
+        <p>Today: {{today | date}}</p>
+    </div>
+</div>

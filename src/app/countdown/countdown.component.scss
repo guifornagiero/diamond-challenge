@@ -1,0 +1,23 @@
+@import "../../assets/scss/functions.scss";
+@import "../../assets/scss/constants.scss";
+
+.container{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+
+    h1{
+        @include noMarginPadding();
+        font-size: 5rem;
+    }
+
+    .container-timestamps{
+        width: 100%;
+        display: flex;
+        padding: 0 10%;
+        justify-content: space-between;
+    }
+}
